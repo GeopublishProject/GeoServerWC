@@ -39,7 +39,6 @@ import javax.xml.parsers.ParserConfigurationException;
         mode = ReportingInteractionMode.SILENT
 )
 public class GeopublishServer extends Application {
-
     public static final String TAG = GeopublishServer.class.getSimpleName();
     public static int ListeningPort = 7000;
     public static int ExecutionDelay = 5000;
