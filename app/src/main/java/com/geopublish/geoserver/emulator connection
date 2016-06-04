@@ -1,0 +1,5 @@
+Para conectar los dos emuladores primero se debe:
+
+ejecutar una ventana de comandos
+escribir:  telnet localhost 5554    (este puerto 5554 aparece en la barra de titulo del emulador qal que querems conectarnos que en este caso es el server)
+escribir:  redir add tcp:4477:7000  (este parametro indica que el cliente se va a conectar a este puerto yse redirige los datos al puerto 7000 que es el puerto abierto del servidor)
